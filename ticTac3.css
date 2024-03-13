@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#button-container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-size: 8vw;
+}
+.btns:hover{
+    background-color: rgb(192, 156, 225);
+}
+ 
+button{
+    display: flex;
+    outline: 0;   
+    justify-content: center;
+    align-items: center; 
+    border-color: black; 
+}
+ 
+#output{
+    font-size: 60px;
+    font-weight: 800;
+    color: red; 
+} 
+button[disabled]{ 
+  color: black;
+  border-color: black;
+}
+
+.border-top-left-0{
+  border-top: 0;
+  border-left: 0;
+}
+.border-top-0{
+    border-top: 0;
+}
+.border-top-right-0{
+    border-top: 0;
+    border-right: 0;
+}
+.border-left-0{
+    border-left: 0;
+}
+.border-right-0{
+    border-right: 0;
+}
+.border-left-bottom-0{
+     border-left: 0;
+     border-bottom: 0;
+}
+.border-bottom-0{
+  border-bottom: 0;
+}
+.border-bottom-right-0{
+    border-bottom: 0;
+    border-right: 0;
+}
